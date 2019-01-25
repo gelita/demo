@@ -1,0 +1,379 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brooklyn Outdoor Film Festival</title>
+	<meta name="theme-color" content="#862a88">
+    <meta name="description" content="Brookly Outdoor Film Festival |Summer movies at Brooklyn Bridge Park">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+    /** Base styles **/
+	body {
+		background: url('assets/images/park2.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Merienda', cursive;
+		padding-top:50px;
+		height: 100%;
+		position:relative;
+	}
+	.container{
+		margin-top: 50px;
+	}	
+	.btn-default{
+		margin: 0 3px;
+	}
+	h1.text-center{
+		padding-top: 15px
+	}
+	.col-xs-4{
+		padding: 15px 1px;
+	}
+	/** Nav **/
+	nav{	
+		background-color: #fcfcfd;
+		border: 1px solid #9f3381;
+		padding:20px 0 0 5px;
+	}
+	.navbar {
+		border: 1px solid #00000029;
+	}
+	.nav>li>a {
+		color: #953097;
+		display: block;
+	}
+	.navbar-brand {
+		color: #862a88;
+	}	
+	.navbar-nav{
+		float: left;
+	}
+	a.navbar-brand>h1{
+		margin: -5px 0 0 5px;
+		font-size: 14px;
+	}
+	.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+		background-color: #9f3380;
+		color: #fff;
+	}
+	button.navbar-toggle{
+		border-right-width: 10px;
+	}	
+	p>a{
+		color: inherit;
+		text-decoration:underline;
+	}
+	.icon-bar{
+		background-color: #953381;
+	}
+	figure, figcaption {
+		display: inline;
+		font-variant: small-caps;
+		font-size: 20px;
+	}
+	/** Form **/		
+	.form-control{
+		border: 1px solid #9f3381;
+	}
+	/**  Jumbotron **/
+	.jumbotron{
+		background: rgba(0,0,0,.75);
+		padding: 50px 20px 0 20px;
+		font-size: 43px;
+	}		
+	/** footer **/		
+	footer{
+		padding-bottom: 3em;
+	}	
+	@media (min-width: 576px) {
+		a.navbar-brand>h1{
+			font-size: 28px;
+		}
+		.navbar-toggle {			
+			margin-right: 30px;
+		}
+	}
+	@media (max-width: 1225px) {
+		.navbar-header {
+			float: none;
+		}
+		.navbar-toggle {
+			display: block;			
+			padding: 9px 0;
+			margin-top:2px;
+			margin-right:30px;
+		}
+		.navbar-brand{
+			    padding: 15px;
+		}
+		.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		}
+		.navbar-collapse.collapse {
+			display: none!important;
+		}
+		.navbar-nav {
+			float: none!important;
+			margin: 7.5px;
+		}
+		.navbar-nav>li {
+			float: none;
+		}
+		.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.collapse.in{
+			display:block !important;
+		}
+	}	
+	#movies.img{
+		max-width: 350px;	
+	}
+	#news{
+	
+	}
+    </style>
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar">
+    <header>
+    <!--***   Navigation ***-->
+		<div  class="container-fluid">
+			<nav class="navbar navbar-fixed-top">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><h1>Brooklyn Outdoor Film Festival</h1></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav nav-tabs" role="tablist">
+					  <li><a href="#home" >Home</a></li>
+					  <li><a href="#movies">Movie Lineup </a></li>
+					  <li><a href="#register">Register</a></li>	
+					  <li><a href="#news" >Festival News</a></li>
+					  <li><a target="_blank" href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></li>
+					  <li><a target="_blank" href="https://www.nycgo.com/boroughs-neighborhoods/brooklyn/">Local News</a></li>
+					</ul>   
+				</div>
+			</nav>
+		</div>
+	</header>   
+    <!--**** Body  *****-->
+    <div class="container-fluid">
+		<div class="jumbotron container" id="home">
+			<h2 class="text-center">Join us for FREE family movie nights at the Brooklyn Bridge Park!</h2>
+			<p>
+				The movies are all free at this family friendly event. The more the merrier, so bring the kids or bring some friends!
+				There will be food vendors at the park. Come early, set up your chairs and enjoy a beautiful evening setting outside at the
+				<a href="http://www.brooklynbridgepark.org" target="_blank" alt="link to Brooklyn Bridge Park">Brooklyn Bridge park</a>. 
+				Please <a href="#register">register here</a> if you plan on attending.
+			</p>
+		</div>
+	</div>
+	<!-- *****movie table *******-->
+	<div class="container-fluid">
+		<div class="jumbotron container" id="movies">
+			<h2 class="text-center">Here's the line up</h2>
+			<div>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 5th 6pm
+						<p>Black Panther(PG-13)- </br>T'Challa, heir to the hidden but advanced kingdom of Wakanda,
+						   must step forward to lead his people into a new future and must confront a challenger from his country's past.
+						</p>				 
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/black-panther-movie.jpg" alt="Black Panther Movie">				 
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 5th 8pm
+						<p>Fantastic Beasts: Crimes of Grindewald Movie(PG-13)-</br>
+						   The second installment of the "Fantastic Beasts" series featuring the adventures of Magizoologist Newt Scamander.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/fantastic-beasts-grindewald-movie.jpg" alt="Fantastic Beasts: Crimes of Grindewald Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 5th 10pm
+						<p>Love and Basketball(Rated R)- </br>
+						   Monica and Quincy love and play basketball together through many life challenges from childhood to adulthood.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/love-and-basketball-movie.jpg" alt="Love and Basketball Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 6th 6pm
+						<p>The Grinch(Rated PG)- </br>
+						   A grumpy Grinch plots to ruin Christmas for the village of Whoville.
+						</p>				 
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/grinch-movie.jpg" alt="Grinch Movie"></img>				 
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 6th 8pm
+						<p>The Mountain Between Us(PG-13)-</br>
+					   	   Stranded after a tragic plane crash, two strangers must forge a connection to survive the extreme elements
+						   of a remote snow-covered mountain. When they realize help is not coming, they embark on a perilous journey across the wilderness.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/mountain-between-us-movie.jpg" alt="The Mountain Between Us Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6 ">August 6th 10pm
+						<p>The Darkest Minds Movie(PG-13)-</br>
+						   Imprisoned by an adult world that now fears everyone under 18, 
+						   a group of teens form a resistance group to fight back and reclaim control of their future.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/darkest-minds-movie.jpg" alt="The Darkest Minds Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 7th 6pm
+						<p>Smallfoot Movie(Rated PG)- </br>
+						   A Yeti is convinced that the elusive creatures known as "humans" really do exist.						   
+						</p>				 
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/smallfoot-movie.jpg" alt="Smallfoot Movie"></img>				 
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 7th 8pm
+						<p>Love Jones(Rated R)-</br>
+						   Darius Lovehall is a young black poet in Chicago who starts dating Nina Mosley, a beautiful and talented photographer.
+						   While trying to figure out if they've got a "love thing" or are just "kicking it," they hang out with their friend, talking about love and sex. 
+					   	</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/love-jones-movie.jpg" alt="Love Jones Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6 ">August 7th 10pm
+						<p>Creed 2(PG-13)-</br>
+						   Under the tutelage of Rocky Balboa, heavyweight contender Adonis Creed faces off against Viktor Drago, son of Ivan Drago.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/creed2-movie.jpg" alt="Creed 2 Movie"></img>
+				</figure>				
+				<figure>
+					<figcaption class="text-center col-sm-6">August 8th 6pm
+						<p>Mary Poppins Returns Movie(Rated G)- </br>
+						   Decades after her original visit, the magical nanny returns to help the Banks
+						   siblings and Michael's children through a difficult time in their lives.						
+						</p>				 
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/mary-poppins-returns-movie.jpg" alt="Mary Poppins Returns Movie"></img>			 
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6">August 8th 8pm
+						<p>Aquaman Movie(Rated PG-13)-</br>
+						   Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, 
+						   and must step forward to lead his people and be a hero to the world.
+					   	</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/aquaman-movie.jpg" alt="Aquaman Movie"></img>
+				</figure>
+				<figure>
+					<figcaption class="text-center col-sm-6 ">August 8th 10pm
+						<p>Night School Movie(PG-13)-</br>
+						   A group of troublemakers are forced to attend night school in hope that they'll pass the GED exam to finish high school.
+						</p>
+					</figcaption>
+					<img class="col-sm-6 img-responsive" src="assets/images/movies/night-school-movie.jpg" alt="Night School Movie"></img>
+				</figure>
+			</div>	
+		</div>			
+	</div>
+	<!-- ******   Form *****-->
+	 <div class="jumbotron container-fluid" id="register" name="register">
+		<h2 class="text-center">Coming to the show?</h2>
+		</br>
+		<h2 class="text-center">Space is limited so please register and let us know you'll be there. Register here:</h2>		
+		<form role="form" class="row">		
+			<div class="form-group col-sm-6 col-lg-4">
+				<input type="name" class="form-control" placeholder="Your name" required>
+			</div>
+			<div class="form-group col-sm-6 col-lg-4">
+				<input type="count" class="form-control" placeholder="How many people are in your party?" required>
+			</div> 
+			<div class="form-group col-sm-6 col-lg-4">
+				<input type="email" class="form-control" placeholder="Your email" required>
+			</div>			  
+			<div class="form-group col-sm-12">
+				<textarea class="form-control" rows="3" placeholder="Comments? Concerns? Compliments? 
+				Tell us about them here:" required></textarea>
+			</div>
+			<div class="form-group col-xs-3 col-xs-offset-8">
+				<button type="submit" class="btn btn-default pull-right">Send</button>
+			</div>
+		</form>
+	</div>	  
+	  <!-- **Festival News **-->
+	 <div class="jumbotron container-fluid row" id="news">
+		<h2 class="text-center">Festival News</h2>
+		<div class="col-sm-6">
+			<h2 class="text-center">Welcome to our 2019 summer shows!</h2>
+			<p>Thank you for making last summer's event a major success! We are ready to have another 
+				great event in Brooklyn and we have some new things in store for you.  In addition to the
+				wonderful food trucks that were there last year, we have some new additions.  For all of our foodies
+				we will have <a href="https://foursquare.com/v/bamboo-bites/525197f0498e756ac12a0ebe" target="_blank">Bamboo Bites</a> and their Thai
+				delights, <a href="https://foursquare.com/v/tacos-el-bronco/4a87839bf964a520940420e3" target="_blank">Tacos el Bronco</a> 
+				coming through with some of the best tacos and we'll be adding more as the dates near.  Check back often!
+			</p>
+		</div>			
+		<div class="col-sm-6">
+			<h2 class="text-center">Dj GG in the house!</h2>
+			<p> Movies start promptly at 6 but come an hour early and enjoy the dope beats of DJ GG! She will be mixing up the 
+				music and playing a little bit of something for everyone to enjoy.  We keep it kid friendly so feel 
+				free to come with the kids in tow! There will be dancing on the lawn and a good time to be had by all even
+				before the shows start.
+			</p>
+		</div>
+	</div>
+    <!--** Footer  **-->
+    <footer>
+		<div class="text-center">
+		  <a class="btn btn-default" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+		  <a class="btn btn-default" href="https://facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+		  <a class="btn btn-default" href="https://instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+		</div>
+    </footer>
+    <!--**  jQuery  **-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--** Bootstrap JS **-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+	//close navbar toggle once link is selected
+		$('.nav a').on('click', function(){
+			$('.navbar-toggle').click(); 
+		});
+		//scrollspy			
+	$(document).ready(function(){
+    $('a[href^="#"]').click(function(e) {
+        e.preventDefault();
+        var target = this.hash, $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top-80
+        }, 300, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+});
+	</script>
+  </body>
+</html>
