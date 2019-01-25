@@ -1,0 +1,46 @@
+December 25, 2018
+Client Contact Details 
+?	Event Planner:  Jennifer Viala
+?	Email: jViala@BrooklynVibes.com
+?	Direct line: 555.555.5555
+1.	Stakeholders/Team
+?	Marketing Director: Lisa McGee
+?	Web Developer: Angela Rosas
+?	Designer: Adriana Jackson
+2.	 Summary
+The Brooklyn Outdoor Film Festival website will be designed to inform the public of the festival taking place on August 5th-8th 2018.  It will allow the public to register for this event online so that the organizers will have an idea of how many people will be in attendance. 
+3.	Goals 
+The goal of this project is to create a website for the 2019 Brooklyn Outdoor Film Festival. The website will serve the following functions for the users: 
+?	The site will be an online informational portal for the public on a professional domain.  The users will be able to see the location, date, time, titles of the films being shown and the regularly published news or announcements about the festival.
+?	The domain name will be “BrooklynOutdoorFilmFestival.com” as requested by Jennifer Viala.
+-Goals cont’d
+?	The site will include links to all social media which include: Facebook, Instagram and Twitter. The site will also link to the Brooklyn Bridge Park website and the NYCGo website.  This has up to date news and information for the borough of Brooklyn.
+?	The registration form will allow attendees to register for the event. 
+4.	Budget
+Deliverable		Cost
+Website design	$800
+Website mockup	$1000
+Site cost breakdown:
+1.	Single page, responsive website(1 year of hosting and domain included)
+2.	registration form
+3.	external site links (NYCGo, Brooklyn Bridge Park)
+4.	social media links and news	
+$1000
+$250
+$200
+$250
+TOTAL	$3500
+5.	Timeline
+Deliverable			Timeframe for deliverable
+Designer has site design ready for client review / approval	July 1  
+Client review, approval or request for changes	July 2-5
+Final design approved and delivered to developer	July 5-8
+Developer codes the initial mockup 	July 8-9 
+Client review, approval or request for changes	July 10-11
+Final rendering of site developed and tested on all devices	July 11-12
+Final deliverable reviewed with client	July 12
+
+6.	Technical Specifications
+The site will be a custom built responsive website and will be coded using Html5 and CSS with Bootstrap.  The site will be designed, developed and tested on multiple devices (smartphone, tablet, laptop/pc).
+There will be one form on the site which will allow the users to pre-register for festival attendance.  The backend of the site will deliver this information to the client via email.  The public email will be “events@ BrooklynOutdoorFilmFestival.com”.  
+Developer will host the site for 1 year. 
